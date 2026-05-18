@@ -7,6 +7,7 @@ This project performs *customer segmentation* on mall shopping data using unsupe
 *Dataset:* [Mall Customer Segmentation Data](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python) from Kaggle  
 *Language:* R  
 *Key Libraries:* `factoextra`, `cluster`, `fossil`, `ggplot2`, `clusterSim`
+
 *Techniques:* Z-score normalization, K-Means clustering, Ward's hierarchical clustering, PCA visualization, Adjusted Rand Index
 
 ## Dataset Description
@@ -133,13 +134,13 @@ An ARI of 0.88 confirms that the *6-cluster segmentation is stable and robust* �
 
 Based on the segmentation, three clusters stand out for marketing strategy:
 
-*Priority 1 — Cluster 3 (Prime Targets)*
+*Priority 1 - Cluster 3 (Prime Targets)*
 Young (avg. 33), high income ($87k), high spending (82). These are the ideal customers for *premium product campaigns*. High engagement and high conversion potential.
 
-*Priority 2 — Cluster 4 (Untapped Potential)*
+*Priority 2 - Cluster 4 (Untapped Potential)*
 Middle-aged (avg. 42), very high income ($89k) but very low spending (17). These customers have the financial capacity but are not engaged. A *loyalty program or personalized outreach* could unlock significant revenue.
 
-*Low Priority — Cluster 6 (Budget Conscious)*
+*Low Priority - Cluster 6 (Budget Conscious)*
 Older (avg. 46), low income ($26k), low spending (19). Limited conversion potential. Best served with *discount-focused or value messaging* if targeted at all.
 
 ---
